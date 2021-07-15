@@ -1,0 +1,7 @@
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+
+color:
+	Black:  #000000
+	Ash:	#626262
+			#b4ad9e

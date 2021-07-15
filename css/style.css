@@ -1,0 +1,243 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+
+/*header start*/
+header{
+	padding: 30px 0;
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+	
+}
+.logo{
+	margin-top: 10px;
+	width: 12%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menue{
+	width: 70%;
+	float: right;
+}
+.menue ul{
+	float: right;
+	list-style: none;
+}
+.menue ul li{
+	float: left;
+}
+.menue ul li a{
+	margin: 0 60px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menue ul li a:hover{}
+.menue ul li:last-child a{
+	margin-right: 0;
+}
+
+
+/*header end*/
+/*banner start*/
+.banner{}
+.b_content{}
+.b_content img{
+	width: 100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{
+	padding: 80px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	
+}
+.g_content{}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 0;
+	font-size: 30px;
+	font-weight: 400;
+	}
+.m_t_b{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.c_text{
+	margin: 0;
+	line-height: 25px;
+}
+.m_b{
+	margin-bottom: 45px;
+}
+/*getaway end*/
+/*blog1 start*/
+.blog{
+	padding: 80px;
+}
+.blog_content{
+	overflow: hidden;
+}
+.b_single{
+	margin-bottom: 65px;
+	width: 47%;
+	float: left;
+}
+.b_single:nth-child(even){
+	margin-left: 6%;
+}
+.b_img{
+	margin-bottom: 30px;
+}
+.b_img img{
+	width: 100%;
+}
+.mtb{
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+/*blog1 end*/
+/*news start*/
+.news{
+	padding: 70px 0;
+	background-color: #f0f0f0;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+}
+.s_form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+	cursor: pointer;
+}
+.s_form button img{}
+/*news end*/
+/*blog2 start*/
+.load{
+	margin: 150px 0;
+	text-align: center;
+}
+.load button{
+	width: 165px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	cursor: pointer;
+	transition: .3s;
+}
+.load button:hover{
+	color: white;
+	background-color: #626262;
+}
+/*blog2 end*/
+/*footer start*/
+footer{
+	padding: 20px 0;
+	background-color: #f0f0f0;
+}
+.terms{
+	width: 30%;
+	float: left;
+	display: inline-block;
+}
+.terms ul{
+	list-style: none;
+}
+.terms ul li{
+	float: left;
+}
+.terms ul li a{
+	margin: 0 10px;
+	color:  #000000;
+	text-decoration: none;
+	display: inline-block;
+}
+.terms ul li:first-child a{
+	margin-left: 0;
+}
+.social{
+	width: 30%%;
+	float: right;
+	display: inline-block;
+}
+.social ul{
+	list-style: none;
+}
+.social ul li{
+	float: left;
+}
+.social ul li a{
+	margin: 0 10px;
+	color:  #000000;
+	text-decoration: none;
+	display: inline-block;
+}
+.social ul li:last-child a{
+	margin-right: 0;
+}
+.social ul li a img{}
+/*footer end*/
+
+
+
+
+
